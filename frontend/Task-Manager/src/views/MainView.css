@@ -1,0 +1,129 @@
+.main-view {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-height: 100vh;
+  padding: 0; /* Adjusted padding */
+  background-color: #f5f5f5;
+  width: 100%; /* Full width */
+}
+
+
+.main-header {
+  background-color: #5E81AC;
+  color: #fff;
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.main-title {
+  margin: 0;
+  font-size: 2.5rem;
+}
+
+.main-tagline {
+  font-size: 1.2rem;
+  margin-top: 10px;
+}
+
+.main-nav {
+  display: flex;
+  justify-content: center;
+  padding: 20px 0;
+}
+
+.nav-link {
+  color: #5E81AC;
+  text-decoration: none;
+  margin: 0 15px;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+  color: #81A1C1;
+}
+
+.main-content {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.feature-card {
+  background-color: #ECEFF4;
+  border-radius: 8px;
+  padding: 20px;
+  margin: 10px;
+  width: 250px;
+  transition: box-shadow 0.3s ease;
+}
+
+.feature-card:hover {
+  box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+}
+
+.feature-link {
+  text-decoration: none;
+  color: inherit;
+}
+
+.feature-title {
+  color: #3B4252;
+  margin: 0;
+ 
+}
+
+.feature-description {
+  color: #4C566A;
+}
+
+.main-footer {
+  text-align: center;
+  padding: 20px 0;
+  font-size: 0.8rem;
+  color: #4C566A;
+  border-top: 1px solid #D8DEE9;
+}
+
+/* Hover Effects for Card Backgrounds */
+.feature-card:nth-child(1):hover {
+  background-color: #098a02; /* Light Red */
+}
+
+.feature-card:nth-child(1):hover .feature-title,
+.feature-card:nth-child(1):hover .feature-description {
+  color: #8edf1b; /* Dark Red Text */
+}
+
+/* Repeat for other cards with appropriate contrasting colors */
+.feature-card:nth-child(2):hover {
+  background-color: #f33a3a; /* Light Orange */
+}
+
+.feature-card:nth-child(2):hover .feature-title,
+.feature-card:nth-child(2):hover .feature-description {
+  color: #ff8f0e; /* Dark Brown Text */
+}
+
+.feature-card:nth-child(3):hover {
+  background-color: #81ba44; /* Light Green */
+}
+
+.feature-card:nth-child(3):hover .feature-title,
+.feature-card:nth-child(3):hover .feature-description {
+  color: #cdffa2; /* Dark Green Text */
+}
+
+
+.feature-card:nth-child(4):hover {
+  background-color: #65bdc9; /* Light Green */
+}
+
+.feature-card:nth-child(4):hover .feature-title,
+.feature-card:nth-child(4):hover .feature-description {
+  color: #80e9ee; /* Dark Green Text */
+}
+
+
+
